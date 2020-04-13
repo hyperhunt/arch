@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-13T09:07:45.802Z" agent="5.0 (X11)" etag="Fy3T2CM_AFjMZiK0jOv8" version="12.9.11" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-13T09:17:25.106Z" agent="5.0 (X11)" etag="7vgFeU2YX3kbqUTCaTBe" version="12.9.11" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1822" dy="1176" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -86,6 +86,38 @@
         </mxCell>
         <mxCell id="ekAMWvGIrZKWJ5HijZO_-8" value="&lt;h1&gt;Вид деятельности&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Пример: Каждая компания отностится к какому-то виду деятельности, направлению, отрасли.&lt;br&gt;&lt;br&gt;Производство -&amp;gt; Рекламные услуги -&amp;gt; Наружная реклама -&amp;gt; Вывески&lt;br&gt;&lt;br&gt;Реестр направлений и перечня услуг.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="360" y="-200" width="240" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ekAMWvGIrZKWJ5HijZO_-9" value="Сортировка" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-200" y="480" width="240" height="216" as="geometry">
+            <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ekAMWvGIrZKWJ5HijZO_-10" value="По услугам" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ekAMWvGIrZKWJ5HijZO_-9">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ekAMWvGIrZKWJ5HijZO_-11" value="По отрасли" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="ekAMWvGIrZKWJ5HijZO_-9">
+          <mxGeometry y="52" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ekAMWvGIrZKWJ5HijZO_-12" value="По городу" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="ekAMWvGIrZKWJ5HijZO_-9">
+          <mxGeometry y="78" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ekAMWvGIrZKWJ5HijZO_-13" value="Postal Code" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="ekAMWvGIrZKWJ5HijZO_-9">
+          <mxGeometry y="104" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ekAMWvGIrZKWJ5HijZO_-14" value="Country" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="ekAMWvGIrZKWJ5HijZO_-9">
+          <mxGeometry y="130" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ekAMWvGIrZKWJ5HijZO_-15" value="Output As Label" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ekAMWvGIrZKWJ5HijZO_-9">
+          <mxGeometry y="156" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ekAMWvGIrZKWJ5HijZO_-16" value="&lt;h1&gt;Сортировка по услугам&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Пример: Увидеть все компании, которые занимаются рекламными услугами или изготавливают вывески.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-200" y="280" width="240" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ekAMWvGIrZKWJ5HijZO_-17" value="Страна" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-200" y="130" width="240" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="ekAMWvGIrZKWJ5HijZO_-18" value="Город" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-200" y="160" width="240" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
